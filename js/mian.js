@@ -24,14 +24,11 @@ const calculate =(btnValue)=>{
 
 
     function container() {
-        document.getElementById("container").style.display = "block";
-        document.getElementById("container2").style.display = "none";
+        document.getElementById("btn").style.display = "block";
+        document.getElementById("btn2").style.display = "none";
         document.getElementById("c-appe").disabled = true;
-        document.getElementById("btn2").disabled = true;
     }
     const container2=()=>{
-        document.getElementById("container2").style.display = "block";
-        document.getElementById("container").style.display = "none";
-        document.getElementById("c-appe2").disabled = true;
-        document.getElementById("btn2").disabled = true;
-    }
+        document.getElementById("btn").style.display = "block";
+        document.getElementById("btn2").style.display = "none";
+        document.getElementById("c-appe2").disabled = true;    }
